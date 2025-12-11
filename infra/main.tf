@@ -11,6 +11,14 @@ terraform {
       version = "~> 3.6.0"
     }
   }
+
+  backend "azurerm" {
+    resource_group_name  = "tfstate-rg"
+    storage_account_name = "sanjaytfstate"
+    container_name       = "tfstate"
+    key                  = "quotesapp/terraform.tfstate"
+  }
+   
 }
 
 provider "azurerm" {
