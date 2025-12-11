@@ -1,0 +1,17 @@
+# Node.js dependencies
+app/node_modules/
+
+# Deployment artifacts
+app/app.zip
+
+# Terraform local state and cache
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/terraform.tfstate.* 
+
+# macOS system files
+.DS_Store
+
+# VS Code
+.vscode/
