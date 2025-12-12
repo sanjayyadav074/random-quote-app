@@ -6,6 +6,16 @@ This is a simple, production-style Random Quote web application built to demonst
 
 While the application itself is intentionally small, the real focus here is on clean infrastructure design, security best practices, and deployment hygiene rather than feature complexity. Every decision has been made deliberately and is documented below.
 
+## Live Application
+
+You can access the running application here:
+
+👉 https://quotesapp-web-euw2.azurewebsites.net
+
+Health check endpoint:
+
+👉 https://quotesapp-web-euw2.azurewebsites.net/health
+
 ## Architecture
 
 At a high level, here's what we're building:
